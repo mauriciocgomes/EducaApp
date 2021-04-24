@@ -3,6 +3,8 @@ phases:
     build:
       commands:
       - echo building
+      - gradle wrapper --gradle-version 6.8.3
+      - chmod +x ./gradlew
       - ./gradlew build
 artifacts:
     files:
