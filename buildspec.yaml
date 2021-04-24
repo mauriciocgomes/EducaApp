@@ -3,10 +3,10 @@ phases:
     build:
       commands:
       - echo building
-      - gradle wrapper --gradle-version 6.8.3
+      - sudo gradle wrapper --gradle-version 6.8.3
       - chmod +x ./gradlew
       - ./gradlew build
 artifacts:
     files:
-    - build/libs/Educapp.jar
+    - build/libs/EducaApp-0.0.1-SNAPSHOT.war
     discard-paths: yes
