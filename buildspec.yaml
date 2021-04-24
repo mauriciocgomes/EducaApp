@@ -3,3 +3,6 @@ phases:
     build:
       commands:
       - echo building
+artifacts:
+    files:
+    - build/libs/Educapp.jar      
