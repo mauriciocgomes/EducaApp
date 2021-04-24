@@ -3,6 +3,8 @@ phases:
     build:
       commands:
       - echo building
+      - ./gradew build
 artifacts:
     files:
-    - build/libs/Educapp.jar      
+    - build/libs/Educapp.jar
+    discard-paths: yes
